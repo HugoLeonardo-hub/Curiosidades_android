@@ -3,7 +3,7 @@
 
 @font-face {
     font-family:'idroid';
-    src: url(../pacote-projeto-d010/fontes/idroid.otf.otf) format('opentype');
+    src: url(../fontes/idroid.otf.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -50,7 +50,12 @@ nav>a:hover{
     color: #84E0AD;
 }
 
-
+main{
+    background-color: white;
+    width: 720px;
+    margin: auto;
+    padding: 10px;
+}
 
 h1{
     font-family: 'idroid';
