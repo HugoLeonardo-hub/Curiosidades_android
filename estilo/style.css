@@ -39,6 +39,7 @@ header>p{
 }
 nav{
     text-decoration: none;
+    text-align: center;
 }
 nav>a{
     text-decoration: none;
@@ -59,4 +60,55 @@ main{
 
 h1{
     font-family: 'idroid';
+    color: #1B5936;
+    font-size: 1.8em;
+}
+
+h2{
+    font-family: 'idroid';
+    color: #1B5936;
+    background-image: linear-gradient(to right, #aecebc, rgba(230, 249, 230, 0.416) );;
+    padding: 5px;
+}
+
+#bug{
+    margin-left: 250px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+span{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#video{
+    padding: 15px 20px;
+    background-color: #1B5936;
+    margin: 0px;
+    
+   
+}
+
+h3{
+    background-color: #41c17b;
+    color: white;
+    padding: 8px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0px;
+}
+
+article{
+    background-color: #aecebc;
+    padding: 8px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.395);
+}
+footer{
+    background-color: #1B5936;
+    color: white;
+    text-align: center;
+
 }
