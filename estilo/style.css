@@ -16,22 +16,33 @@
     #1a5c37
     #f2ecce
 */
+:root{
+   
+    --cor0: #f2ecce;
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
 
-/*font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Work Sans', sans-serif;*/
+    --fonte-padrao: Arial, Verdana, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'idroid', cursive;
+    
+}
 
 body{
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Work Sans', sans-serif;
-    background-color: #F2ECCE;
+    font-family: var(--fonte-padrao);   
+    background-color: var(--cor0);
     margin: 0px auto;
 }
 header{
-    background-image: linear-gradient(to top, #1B5936, #aecebc );
+    background-image: linear-gradient(to top, var(--cor5), var(--cor2) );
     margin: 0px;
 }
 h1#top{
-    font-family: 'Bebas Neue', cursive;
+    font-family: var(--fonte-destaque);
     color: white;
     text-align: center;
     margin-top: 0px;
@@ -60,7 +71,7 @@ nav>a{
     font-weight: bold;
 }
 nav>a:hover{
-    color: #84E0AD;
+    color: var(--cor2);
 }
 
 main{
@@ -71,14 +82,14 @@ main{
 }
 
 h1{
-    font-family: 'idroid';
-    color: #1B5936;
+    font-family: var(--fonte-android);
+    color: var(--cor5);
     font-size: 1.8em;
 }
 
 h2{
-    font-family: 'idroid';
-    color: #1B5936;
+    font-family: var(--fonte-android);
+    color: var(--cor5);
     background-image: linear-gradient(to right, #aecebc, rgba(230, 249, 230, 0.416) );;
     padding: 5px;
 }
@@ -98,14 +109,14 @@ span{
 
 #video{
     padding: 15px 20px;
-    background-color: #1B5936;
+    background-color: var(--cor5);
     margin: 0px;
     
    
 }
 
 h3{
-    background-color: #41c17b;
+    background-color: var(--cor4);
     color: white;
     padding: 8px;
     border-radius: 10px 10px 0 0;
@@ -114,13 +125,13 @@ h3{
 }
 
 aside{
-    background-color: #aecebc;
+    background-color: var(--cor1);
     padding: 8px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.395);
 }
 footer{
-    background-color: #1B5936;
+    background-color: var(--cor5);
     color: white;
     text-align: center;
 
