@@ -39,65 +39,90 @@ body{
 }
 header{
     background-image: linear-gradient(to top, var(--cor5), var(--cor2) );
-    margin: 0px;
+    margin: 0px;    
 }
-h1#top{
+
+header h1#top{
     font-family: var(--fonte-destaque);
     color: white;
-    text-align: center;
     margin-top: 0px;
     margin-bottom: 2px;
+    text-align: center;
     padding-top: 10px;
-    font-size: 3em;
-    
+    font-size: 3em;    
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.237);
 }
+
 header>p{
     color: white;
     height: 50px;
     width: 458px;
     margin: auto;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 7px 7px rgba(0, 0, 0, 0.237);
     
     
 }
 nav{
     text-decoration: none;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 3px;   
+    background-color: var(--cor5);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
 }
 nav>a{
     text-decoration: none;
     color: white;
-    margin-right: 12px;
+    margin-right: 15px;
     font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 3px 3px 0px 0px;
+    transition-duration: .5s;
 }
 nav>a:hover{
-    color: var(--cor2);
+    color: var(--cor5);
+    background-color: var(--cor3);
 }
 
 main{
     background-color: white;
-    width: 800px;
+    max-width: 1000px;
+    min-width: 300px;
     margin: auto;
+    margin-bottom: 30px;
     padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.559);
+    border-radius: 0px 0px 10px 10px;
 }
 
-h1{
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+} 
+main h1{
     font-family: var(--fonte-android);
     color: var(--cor5);
     font-size: 1.8em;
 }
 
-h2{
+main h2{
     font-family: var(--fonte-android);
     color: var(--cor5);
     background-image: linear-gradient(to right, #aecebc, rgba(230, 249, 230, 0.416) );;
     padding: 5px;
 }
 
-#bug{
-    margin-left: 250px;
-}
-p{
+
+main p{
     text-align: justify;
     text-indent: 20px;
 }
