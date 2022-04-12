@@ -104,7 +104,7 @@ main img{
 }
 
 main img.pequena{
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 } 
@@ -117,14 +117,34 @@ main h1{
 main h2{
     font-family: var(--fonte-android);
     color: var(--cor5);
-    background-image: linear-gradient(to right, #aecebc, rgba(230, 249, 230, 0.416) );;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
     padding: 5px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 
 main p{
     text-align: justify;
-    text-indent: 20px;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main strong{
+    color: var(--cor5);
+   
+}
+
+main a{
+    text-decoration: none;
+    background-color: var(--cor1);
+    color: var(--cor4);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+main a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
 }
 
 span{
@@ -155,6 +175,12 @@ aside{
     border-radius: 0px 0px 10px 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.395);
 }
+
+aside >ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
 footer{
     background-color: var(--cor5);
     color: white;
@@ -162,6 +188,11 @@ footer{
 
 }
 footer>a{
-    color: rgb(102, 130, 255);
+    padding: 5px;
+    color:var(--cor4);
     text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
 }
