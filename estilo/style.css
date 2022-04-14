@@ -9,6 +9,9 @@
     font-weight: normal;
     font-style: normal;
 }
+html{
+    font-size: calc(60% + 0.8vmin);
+}
 /*Cores do projeto
     #c5ebd6
     #83e1ad
@@ -252,8 +255,7 @@ legend{
     border-bottom: 1px solid var(--cor3);
     outline: none;
     width: 50%;
-    font-size: 15px;
-    
+    font-size: 15px;       
     
 }
 .inputUser2{
@@ -268,9 +270,10 @@ legend{
 }
 .inputLabel{
     font-family: var(--fonte-destaque);
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: lighter;
     color: var(--cor5);
+    padding-bottom: 5px;
 }
 .inputLabel:hover{
     /*position: absolute;*/    
@@ -278,6 +281,16 @@ legend{
     border-radius: 5px;
     padding: 5px; 
     font-size: 1.1em;  
+}
+
+#estado{
+    border: none;   
+    background-color: var(--cor0); 
+    border-radius: 5px;
+    padding: 5px; 
+    font-size: 1em;
+    outline: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.183);    
 }
 #submit{
     background-image: linear-gradient(to right, var(--cor4), var(--cor2) );
@@ -288,6 +301,11 @@ legend{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.532);
     border-radius: 5px 0px;
 
+}
+#textarea{
+    margin-bottom: 10px;
+    border: 2px solid var(--cor3);
+    width: 50%;
 }
 /*.inputUser:hover ~ .inputLabel{
     background-color: var(--cor0);
