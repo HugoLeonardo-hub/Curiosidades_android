@@ -300,12 +300,23 @@ legend{
     font-weight: bolder;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.532);
     border-radius: 5px 0px;
+    margin-bottom: 20px;
 
 }
 #textarea{
     margin-bottom: 10px;
     border: 2px solid var(--cor3);
     width: 50%;
+}
+
+.voltar{
+    font-size: 1.3em;
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2) );
+    color: var(--cor0);
+    padding: 3px 10px;
+    margin-left: 50%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.532);
 }
 /*.inputUser:hover ~ .inputLabel{
     background-color: var(--cor0);
